@@ -39,6 +39,7 @@ body h4 {
   position: absolute;
   display: block;
   text-align: center;
+  max-width: 100%;
 }
 
 #timer_div h1 {
@@ -62,12 +63,12 @@ body h4 {
   width: -moz-fit-content;
   width: fit-content;
   display: inline-block;
+  max-width: 100%;
 }
 
 .timer h3 {
   font-family: "Libertinus Keyboard", system-ui;
   font-size: 80px;
-  font-weight: 400;
   padding-bottom: 15px;
 }
 

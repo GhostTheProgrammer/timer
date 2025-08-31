@@ -41,6 +41,7 @@ body {
     position: absolute;
     display: block;
     text-align: center;
+    max-width: 100%;
 
     h1 {
         text-decoration: underline;
@@ -65,11 +66,11 @@ body {
         text-align: center;
         width: fit-content;
         display: inline-block;
+        max-width: 100%;
         //count down timer text 
         h3 {
             font-family: "Libertinus Keyboard", system-ui;
             font-size: 80px;
-            font-weight: 400;
             padding-bottom: 15px;
         }
         //days, hours etc text
@@ -79,3 +80,7 @@ body {
         }
     }
 
+
+   // @media (max-width: 600px) {
+        
+    //}
