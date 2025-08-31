@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Libertinus+Keyboard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Asimovian", sans-serif;
+}
+
+//background gradient 
+$background-grad: repeating-linear-gradient(135deg, #574801, #ebf8e1 29%);
+
+body {
+    padding-top: 30px;
+    background: $background-grad;
+    box-sizing: border-box;
+     
+    h4 {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 40px;
+    } 
+}
+
+.bckg-img {
+    align-content: center;
+    background: url("images/sign_out_day.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.4;
+    overflow: hidden;
+}
+
+#timer_div {
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    display: block;
+    text-align: center;
+
+    h1 {
+        text-decoration: underline;
+        font-weight: 800;
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+    }
+    
+}
+
+//style for timer content//
+.timer-content {
+    display: inline-block;
+    padding: 2rem;
+}
+
+
+.timer {
+        color: rgb(1, 83, 42);
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+        width: fit-content;
+        display: inline-block;
+        //count down timer text 
+        h3 {
+            font-family: "Libertinus Keyboard", system-ui;
+            font-size: 50px;
+        }
+        //days, hours etc text
+        span {
+            color: #000000;
+            font-size: 20px;
+        }
+    }
+
