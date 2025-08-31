@@ -15,13 +15,6 @@ body {
     padding-top: 30px;
     background: $background-grad;
     box-sizing: border-box;
-     
-    h4 {
-        margin-top: auto;
-        padding-top: 25px;
-        text-align: center;
-        font-size: 40px;
-    } 
 }
 
 .bckg-img {
@@ -51,6 +44,12 @@ body {
         font-family: "Poppins", sans-serif;
     }
     
+    h4 {
+        margin-top: auto;
+        padding-top: 25px;
+        text-align: center;
+        font-size: 40px;
+    } 
 }
 
 //style for timer content//
@@ -81,20 +80,12 @@ body {
     }
 
 
-    @media (max-width: 750px) {
-        .timer {
-            display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-        }
+@media (max-width: 750px) {
+    .timer {
+         display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
     }
 
-    @media (max-width: 400px) {
-        .timer {
-            display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-        }
-    }
+}
