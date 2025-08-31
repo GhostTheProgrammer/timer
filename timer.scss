@@ -17,7 +17,7 @@ body {
     box-sizing: border-box;
      
     h4 {
-        padding-top: 30px;
+        padding-top: 25px;
         text-align: center;
         font-size: 40px;
     } 
@@ -37,7 +37,7 @@ body {
 
 #timer_div {
     top: 30%;
-    left: 30%;
+    left: 23%;
     position: absolute;
     display: block;
     text-align: center;
@@ -69,6 +69,7 @@ body {
         h3 {
             font-family: "Libertinus Keyboard", system-ui;
             font-size: 50px;
+            padding-bottom: 15px;
         }
         //days, hours etc text
         span {
